@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "Punycode",
-            targets: ["Punycode_PrecompiledProduct"]
+            targets: ["Punycode"]
         )
     ],
     targets: [
@@ -19,12 +19,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Punycode",
-            url: "https://github.com/swift-precompiled/PunycodeSwift/releases/download/3.0.0/Punycode-c3b85dedfc7653b259d3a29aad1318457cf1f3b4c8be41c2a7970c296db9fb89.xcframework.zip",
-            checksum: "c3b85dedfc7653b259d3a29aad1318457cf1f3b4c8be41c2a7970c296db9fb89"
-        ),
-        .target(
-            name: "Punycode_PrecompiledProduct",
-            dependencies: ["Punycode_Aggregation"]
+            url: "https://github.com/swift-precompiled/PunycodeSwift/releases/download/3.0.0/Punycode-c5b9bfdcb3606b43c351d1d40544c6642f437a9307d0acfab47b9a8bf6af3c38.xcframework.zip",
+            checksum: "c5b9bfdcb3606b43c351d1d40544c6642f437a9307d0acfab47b9a8bf6af3c38"
         )
     ]
 )
